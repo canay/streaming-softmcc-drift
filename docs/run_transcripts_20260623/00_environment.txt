@@ -1,0 +1,12 @@
+﻿Operation ID: softmcc-drift-canonical-transcripts-20260623
+Date/time: 2026-06-23 07:52:18 +03:00
+Working directory: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Drift
+Python command: C:\Users\root\miniforge3\python.exe
+STREAMING_SOFTMCC_DRIFT_DATA_DIR: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\02_data
+python 3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]
+platform Windows-11-10.0.26200-SP0
+numpy 2.4.6
+pandas 2.2.3
+scipy 1.16.3
+sklearn 1.8.0
+matplotlib 3.10.7

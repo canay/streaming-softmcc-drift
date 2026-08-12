@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "operation_id": "softmcc-drift-round-b-remediation-20260812",
+  "created_at": "2026-08-12T00:00:00+03:00",
+  "purpose": "Document frozen stationary and metric-family protocol identities after Round B remediation without rerunning experiments.",
+  "experiment_execution": {
+    "performed": false,
+    "reason": "The author explicitly prohibited experiment reruns; this addendum is derived from stored artifacts and static code inspection only."
+  },
+  "protocol": {
+    "config_path": "03_experiments/configs/experiments.yaml",
+    "config_sha256": "0add2fb45f85f0dab5a8f6ee1e98970bc046747ff8eed999d4baf4f5a9066074",
+    "bootstrap_seed_policy": "SHA-256-derived process-independent 32-bit seeds for future executions",
+    "stored_results_policy": "Existing result CSV and NPZ bytes remain unchanged"
+  },
+  "stationary_sensitivity": {
+    "seeds": [42, 43, 44, 45, 46],
+    "generator_seed_rule": "1000 + seed",
+    "n": 6000,
+    "d": 10,
+    "tail": 1000,
+    "reporting": "stored five-seed means and mean trace standard deviations; legacy BCa intervals omitted from the manuscript",
+    "artifacts": [
+      {
+        "path": "results/stationary_equivalence_raw.csv",
+        "sha256": "b2a7a72003d53336aab3c43e0eed31ddc0604d69c2c973c25d24fe2596bf8f70"
+      },
+      {
+        "path": "results/stationary_equivalence_summary.csv",
+        "sha256": "cf0524b8fe856416e3dbee0bcca17d1239b57b1f04ad5f7549bb3ca3ec10f026"
+      }
+    ]
+  },
+  "metric_family_probe": {
+    "families": ["SoftMCC", "HardMCC@0.5", "AUPRC"],
+    "illustrative_window": 500,
+    "registered_selection": false,
+    "scale_boundary": "Rows have family-specific scales and estimands; absolute gaps are not compared across families.",
+    "artifacts": [
+      {
+        "path": "results/metric_family_comparator_raw.csv",
+        "sha256": "a1a718ab54f7ab347646172bd5915dd2f89448eda6aab432e853534187914e8f"
+      },
+      {
+        "path": "results/metric_family_comparator_summary.csv",
+        "sha256": "b882d724ac177654b330069471a036f5522798dcdb7b782e2c0c40a964ce405e"
+      },
+      {
+        "path": "results/metric_family_comparator_paired.csv",
+        "sha256": "959736b33882d0d7fa8fbe3d69c345bb5b56734c1a499bb77842c6ab530b2f55"
+      },
+      {
+        "path": "results/metric_family_comparator_best.csv",
+        "sha256": "a8dd622f81a3e765d825081d4b9c955b6d8e89668614c435288b43254131d0c9"
+      },
+      {
+        "path": "results/q1_metric_family_paired_effects.csv",
+        "sha256": "175f3274b60b9d392896a1ba440edc99c54e6ea88dc0075e6e36c222dc8e0c08"
+      }
+    ]
+  },
+  "future_execution_code": {
+    "analyze_drift.py": "a5b506bcbf63105b06b2169081865d25b680f455c23dc8fb7cf050ab6f03a02c",
+    "stationary_check.py": "ff34c74126678a2809cd257521b783556b5ee18d0946d43c63c1bb5f1923ea03",
+    "joint_drift_calibration.py": "b6e2c29278e8fafaf24ff51e25d3e6ab83b7d8c7bd6be527badf8e9eab3660a4",
+    "metric_family_comparator.py": "b676ca4acd8115e2049bcfd4d71a6df15b8d1944c8501a4e066a651f950c3f70"
+  }
+}
