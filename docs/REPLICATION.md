@@ -65,7 +65,8 @@ code 0.
 
 ## Current Known Gaps
 
-- Public release still requires the author to create a GitHub repository/tag and
-  decide whether to archive the release with a DOI service.
+- The curated repository is public at
+  `https://github.com/canay/streaming-softmcc-drift`; a citable release tag and
+  DOI archive are intentionally deferred during double-anonymous review.
 - Raw CSV files and prepared real-data caches are deliberately excluded from the
   package; users must obtain source datasets and build local caches.
