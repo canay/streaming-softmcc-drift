@@ -55,7 +55,7 @@ def fig1_synth():
     axes[0].legend(loc="lower left", fontsize=8, framealpha=0.9)
     fig.tight_layout()
     out = os.path.join(FIGS, "fig1_drift_traces.png")
-    fig.savefig(out, dpi=200, bbox_inches="tight", pad_inches=0.02); plt.close(fig)
+    fig.savefig(out, dpi=600, bbox_inches="tight", pad_inches=0.02); plt.close(fig)
     print("wrote", out)
 
 
@@ -74,7 +74,7 @@ def fig2_tradeoff():
     ax.grid(alpha=0.3)
     fig.tight_layout()
     out = os.path.join(FIGS, "fig2_gap_tradeoff.png")
-    fig.savefig(out, dpi=200, bbox_inches="tight", pad_inches=0.02); plt.close(fig)
+    fig.savefig(out, dpi=600, bbox_inches="tight", pad_inches=0.02); plt.close(fig)
     print("wrote", out)
 
 
@@ -96,7 +96,7 @@ def fig3_real():
     axes[0].legend(loc="best", fontsize=8, framealpha=0.9)
     fig.tight_layout()
     out = os.path.join(FIGS, "fig3_real_traces.png")
-    fig.savefig(out, dpi=200, bbox_inches="tight", pad_inches=0.02); plt.close(fig)
+    fig.savefig(out, dpi=600, bbox_inches="tight", pad_inches=0.02); plt.close(fig)
     print("wrote", out)
 
 

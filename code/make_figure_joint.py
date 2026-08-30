@@ -53,7 +53,7 @@ def main():
     axes[0].legend(loc="upper right", fontsize=8, framealpha=0.9)
     fig.tight_layout()
     out = os.path.join(FIGS, "fig4_joint_calib.png")
-    fig.savefig(out, dpi=200, bbox_inches="tight", pad_inches=0.02); plt.close(fig)
+    fig.savefig(out, dpi=600, bbox_inches="tight", pad_inches=0.02); plt.close(fig)
     print("wrote", out)
 
 
