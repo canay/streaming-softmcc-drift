@@ -2,8 +2,8 @@
 
 Operation ID: softmcc-drift-canonical-transcripts-20260623
 Date/time: 2026-06-23 07:52:24 +03:00
-Working directory: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Drift
-Data dir: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\02_data
+Working directory: <controlled-workspace>\SCI-SoftMCC_Drift
+Data dir: <controlled-workspace>\SCI-SoftMCC_Theory\02_data
 
 The canonical internal transcripts remain under `MD/_state/run_transcripts_20260623/`
 with `.log` extensions. Public-package copies use `.txt` extensions so repository
