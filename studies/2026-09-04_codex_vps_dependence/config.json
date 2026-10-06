@@ -1,0 +1,21 @@
+{
+  "run_id": "2026-09-04_codex_vps_dependence",
+  "operation_id": "SOFTMCC-RESEARCH-20260904",
+  "change_id": "MCC-DRIFT-20260904-DEPENDENCE",
+  "master_seed": 20260904,
+  "prevalences": [0.5, 0.2, 0.05],
+  "middle_masses": [0.2, 0.2, 0.1],
+  "scores": [0.01, 0.25, 0.9],
+  "rhos": [0.0, 0.3, 0.6, 0.9],
+  "windows": [20, 40, 100, 200, 500],
+  "length": 2500,
+  "blocks": 32,
+  "replicates_per_block": 128,
+  "margin": 1e-12,
+  "bootstrap_resamples": 5000,
+  "bootstrap_seed": 94001,
+  "unit_timeout_seconds": 120,
+  "watchdog_seconds": 3600,
+  "disk_min_gib": 5,
+  "max_output_gib": 1
+}

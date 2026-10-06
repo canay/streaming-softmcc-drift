@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-08-27_claude_local_finite_ess_bias",
+  "tool": "Claude Code",
+  "model_or_session": "claude-opus-5",
+  "seed": "stage 1: 2000-2499; stage 2: 3000-3199 per intercept; stage 4: 2000-2499 plus 5000-6999; stage 5: deterministic permutation seeds derived from 20260827, replicate, and unit name; disjoint from the exploratory 1000-1029",
+  "repeat": "stage 1: 500 units; stage 2: 4 x 200 units; stage 4: 500 plus 2000 units; stage 5: 8 ordered units x 20 permutations",
+  "hyperparameters": {
+    "windows": [
+      20,
+      40,
+      100,
+      200,
+      500
+    ],
+    "lambda_rule": "(w-1)/(w+1)",
+    "n_pre": 3000,
+    "n_post": 3000,
+    "evaluation_horizon": 1000,
+    "population_reference_n": 200000,
+    "stage2_intercepts": [
+      0.0,
+      -1.0,
+      -2.0,
+      -3.0
+    ]
+  },
+  "inference": {
+    "bootstrap": "BCa, 20000 resamples",
+    "multiplicity": "Holm within each kernel family across the five memory scales",
+    "confidence_level": 0.95
+  },
+  "elapsed_seconds": {
+    "stage1": 498.368812500034,
+    "stage2": 643.160015400033,
+    "stage4": 105.910279000178,
+    "stage4b": 390.687631800072,
+    "stage5": 685.172419900075
+  },
+  "original_manifest_sha256": "7d8da9f5bb44e7097435c55ae0ba0fa0dd4f425fae7824dc3e9c77ec35731ef7",
+  "public_adapter_scope": "Relative paths only; scientific function AST and fixed configuration preserved.",
+  "original_transcripts": "not_available; independent provenance verification exists without transcript reconstruction"
+}

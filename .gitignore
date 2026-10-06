@@ -17,3 +17,14 @@ __pycache__/
 # internal pipeline state must never be copied here
 MD/_state/
 experiments/
+
+# Private/generated study data and runtime records
+studies/**/local_data_cache/
+studies/**/raw/*_units/
+studies/**/results/raw/
+studies/**/status_units/
+studies/**/smoke*/
+studies/**/results/heartbeat.json
+studies/**/results/terminal_status.json
+studies/**/results/attempts/
+__pycache__/

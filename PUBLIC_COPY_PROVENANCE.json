@@ -1,0 +1,439 @@
+{
+  "scope": "Public reproduction-code path adaptations and byte-identical saved-result copies. Source hashes identify the original study artifacts; adapted code produces its own honest receipt bindings.",
+  "records": [
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/src/analyze_results.py",
+      "origin_sha256": "c00de645f417c90f9fba52c1e3d4ec78ec8e7d64c155e4626c87773aa6b0e27e",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/src/analyze_results.py",
+      "public_sha256": "c00de645f417c90f9fba52c1e3d4ec78ec8e7d64c155e4626c87773aa6b0e27e",
+      "bytes": 11045,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/src/memsoftmcc_matched.py",
+      "origin_sha256": "68490f4a6f6669e37acca132854ff3d04dcde046b69a78b2bb18b5276aff6d20",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/src/memsoftmcc_matched.py",
+      "public_sha256": "68490f4a6f6669e37acca132854ff3d04dcde046b69a78b2bb18b5276aff6d20",
+      "bytes": 12461,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/src/run_experiments.py",
+      "origin_sha256": "bcaa47fadf8c9ef7ad6fb3a2e4a504955f81a67dbd55d38675252192d87b6719",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/src/run_experiments.py",
+      "public_sha256": "e570b48795fa3da15d1251e8377c3a4ba0fe49b06bac9a3dcd507be3db518be3",
+      "bytes": 13728,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/src/verify_theory.py",
+      "origin_sha256": "2401f689e335a9b5f4a65d50528a32fe863f0f9a7b476b143e8a1886c38a35f2",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/src/verify_theory.py",
+      "public_sha256": "2401f689e335a9b5f4a65d50528a32fe863f0f9a7b476b143e8a1886c38a35f2",
+      "bytes": 6961,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/figure_memory_shape.csv",
+      "origin_sha256": "60234352219f195821ea39509f82d81594e2918271925451d0918a45e57c7c13",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/figure_memory_shape.csv",
+      "public_sha256": "60234352219f195821ea39509f82d81594e2918271925451d0918a45e57c7c13",
+      "bytes": 1675,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/memory_calibration.csv",
+      "origin_sha256": "2fd13fcb33b2cedb768acb0106ea4f97b9d96021d6352edf9e231a2d99e96280",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/memory_calibration.csv",
+      "public_sha256": "2fd13fcb33b2cedb768acb0106ea4f97b9d96021d6352edf9e231a2d99e96280",
+      "bytes": 597,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/metric_family_matched_summary.csv",
+      "origin_sha256": "d82ebee1e848ab2a8f44076b6786885ee116b56bcfa75b6d36b1f8c0c043785b",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/metric_family_matched_summary.csv",
+      "public_sha256": "d82ebee1e848ab2a8f44076b6786885ee116b56bcfa75b6d36b1f8c0c043785b",
+      "bytes": 11502,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/ordered_matched_contrasts.csv",
+      "origin_sha256": "8f81d6f9699753517e47d8c4a0bed5251e9141c37aeb1e7b76652e2d13929068",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/ordered_matched_contrasts.csv",
+      "public_sha256": "8f81d6f9699753517e47d8c4a0bed5251e9141c37aeb1e7b76652e2d13929068",
+      "bytes": 3868,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/ordered_summary.csv",
+      "origin_sha256": "56baa97feacd92e972a9eb81bdcc6169bb3170ac5e06e389ae4bea5da5a84325",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/ordered_summary.csv",
+      "public_sha256": "56baa97feacd92e972a9eb81bdcc6169bb3170ac5e06e389ae4bea5da5a84325",
+      "bytes": 12446,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/primary_paired_effects.csv",
+      "origin_sha256": "64f43023363e23af8f773b12264851844ab55d877d502121e96ba9501e4c6b89",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/primary_paired_effects.csv",
+      "public_sha256": "64f43023363e23af8f773b12264851844ab55d877d502121e96ba9501e4c6b89",
+      "bytes": 947,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/stationary_variance_ratios.csv",
+      "origin_sha256": "bea7f3c10cdc6306632fc7e11512a597238a65106ab4c67a784af3f31ccb410a",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/stationary_variance_ratios.csv",
+      "public_sha256": "bea7f3c10cdc6306632fc7e11512a597238a65106ab4c67a784af3f31ccb410a",
+      "bytes": 477,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/synthetic_summary.csv",
+      "origin_sha256": "33dd2141a2585b1f60b7fda9642a3a05147cb236228b476df616d9a05646c839",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/synthetic_summary.csv",
+      "public_sha256": "33dd2141a2585b1f60b7fda9642a3a05147cb236228b476df616d9a05646c839",
+      "bytes": 6512,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/table_memory_matched.csv",
+      "origin_sha256": "1eae324bcd940feecef9551ff1ba98e1e5903e95df39642aa59b006204bbbc54",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/table_memory_matched.csv",
+      "public_sha256": "1eae324bcd940feecef9551ff1ba98e1e5903e95df39642aa59b006204bbbc54",
+      "bytes": 1273,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/theory_bound_simulation.csv",
+      "origin_sha256": "fbfb0b82eaab274cc685770db53ea1306626a1941373cfc1faf957f68277f495",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/theory_bound_simulation.csv",
+      "public_sha256": "fbfb0b82eaab274cc685770db53ea1306626a1941373cfc1faf957f68277f495",
+      "bytes": 5113,
+      "kind": "saved_result",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/raw/metric_family.csv",
+      "origin_sha256": "5fe0687620fdd1a7bb1c63f36509701a98c3ca4a48c938f38e1564d76b7261af",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/raw/metric_family.csv",
+      "public_sha256": "5fe0687620fdd1a7bb1c63f36509701a98c3ca4a48c938f38e1564d76b7261af",
+      "bytes": 448902,
+      "kind": "replication_unit_metrics_not_sample_level_data",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/raw/ordered_anchors.csv",
+      "origin_sha256": "b03b52cce99e8543880b22e5f8e5db838ee0bbf67bed1f0e28d6967f5bf2a765",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/raw/ordered_anchors.csv",
+      "public_sha256": "b03b52cce99e8543880b22e5f8e5db838ee0bbf67bed1f0e28d6967f5bf2a765",
+      "bytes": 633166,
+      "kind": "replication_unit_metrics_not_sample_level_data",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/raw/ordered_change_points.csv",
+      "origin_sha256": "c25441c6efc6d425697facb6dacfcdadd52479da183af846652f811e07c7b9d1",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/raw/ordered_change_points.csv",
+      "public_sha256": "c25441c6efc6d425697facb6dacfcdadd52479da183af846652f811e07c7b9d1",
+      "bytes": 15601,
+      "kind": "replication_unit_metrics_not_sample_level_data",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/raw/ordered_metrics.csv",
+      "origin_sha256": "b1774d57e0e93cdeffc517be07f76d4a7193ac6e991b7723de7c74c1e50fbabd",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/raw/ordered_metrics.csv",
+      "public_sha256": "b1774d57e0e93cdeffc517be07f76d4a7193ac6e991b7723de7c74c1e50fbabd",
+      "bytes": 12883,
+      "kind": "replication_unit_metrics_not_sample_level_data",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/raw/synthetic_metrics.csv",
+      "origin_sha256": "eb2170662dc2f9e5ee34734dccbd4babf5ed4cd937ea052b15f537af6a9f2edd",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/raw/synthetic_metrics.csv",
+      "public_sha256": "eb2170662dc2f9e5ee34734dccbd4babf5ed4cd937ea052b15f537af6a9f2edd",
+      "bytes": 252036,
+      "kind": "replication_unit_metrics_not_sample_level_data",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-26_codex_local_kais_memory_matched/evidence/theory_verification.json",
+      "origin_sha256": "8c4c0f88b86f85f0fc94543677d81a10f476bf166729630a4a9849bd01d13824",
+      "public_path": "studies/2026-08-26_codex_local_kais_memory_matched/evidence/theory_verification.json",
+      "public_sha256": "8c4c0f88b86f85f0fc94543677d81a10f476bf166729630a4a9849bd01d13824",
+      "bytes": 569,
+      "kind": "numeric_identity_report",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/src/analyze_stage1.py",
+      "origin_sha256": "697cfec9cbdf281cfe1f659322ccb5e1e118bf094e957cf89d7950b9dc09344d",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/src/analyze_stage1.py",
+      "public_sha256": "cd6a7b956e74b257021d25f6eea7d60fdd82db4d8ef6ec3d9a8c3f1316c924f8",
+      "bytes": 5011,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/src/analyze_stage2.py",
+      "origin_sha256": "d9e00bb8a845771f06c4cbeac0592ffbfd955bdc2de314a082f49dfd10a5064e",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/src/analyze_stage2.py",
+      "public_sha256": "981874d1cb1538908eb4600430ab585ee8d11b4e57a7cabbc5099f4b73e2c4f4",
+      "bytes": 4124,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/src/analyze_stage4.py",
+      "origin_sha256": "20db1f44190b506ed4ff461869239c6c34d9f357ddfb04e75aab4c56408fd521",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/src/analyze_stage4.py",
+      "public_sha256": "480360c1a775792751b3bd867adeaf2df9e6547bae6ed2b67977b81c1d63120b",
+      "bytes": 3523,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/src/make_figure.py",
+      "origin_sha256": "5a1d193a68a5304c89dcd25a3224dbd45635e226b27ec8d569fb5d13cad1c1ff",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/src/make_figure.py",
+      "public_sha256": "4275ef02118866cb4015ce2b4be0b7a10b4c22be929f2783338b709b23a808cb",
+      "bytes": 3218,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/src/run_bias_probe.py",
+      "origin_sha256": "94e7087bbeb0c3c36d580f1e0ac79e7d36466d26e485310847773d04f928ab2e",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/src/run_bias_probe.py",
+      "public_sha256": "ca84ede6f7bdf910a1bf6d80bc076a7de23d8fbad3c6fcbe66ae7d6caed5c372",
+      "bytes": 6329,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/src/run_stages_45.py",
+      "origin_sha256": "0f644c13182c11ad7c15efa665935777e09823e50a3cc5d7d80dbb598cab7180",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/src/run_stages_45.py",
+      "public_sha256": "72ce7f2b0e8184b10179eea6e6c3aa2edd84c50b1a45350091ac24c868b4562f",
+      "bytes": 5874,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/src/stage3_theory.py",
+      "origin_sha256": "13b52dd8cba633351f6063d2b1bfa8e5c0d76f55e7796b1189b202a54917a4c8",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/src/stage3_theory.py",
+      "public_sha256": "98eedcc545a2a12d706a6f5a9d5ea54c039e2561abc58e7b3f0534ea65c2f4be",
+      "bytes": 4317,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage1_raw.json",
+      "origin_sha256": "cb9d4b98cfd9493b03e95e2155a6413cdaad7f70e2b4e35020555f6a17175660",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage1_raw.json",
+      "public_sha256": "cb9d4b98cfd9493b03e95e2155a6413cdaad7f70e2b4e35020555f6a17175660",
+      "bytes": 957240,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage2_raw.json",
+      "origin_sha256": "a6409e29495b9602ef11858bfa24fb1af1c919412d5b27aba4085293df31be25",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage2_raw.json",
+      "public_sha256": "a6409e29495b9602ef11858bfa24fb1af1c919412d5b27aba4085293df31be25",
+      "bytes": 1200344,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage2_summary.json",
+      "origin_sha256": "f87ef294239ae6bb9e4208fc8a94fa3d12c1167a21580ac69c34a6c39e548368",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage2_summary.json",
+      "public_sha256": "f87ef294239ae6bb9e4208fc8a94fa3d12c1167a21580ac69c34a6c39e548368",
+      "bytes": 1031,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage3_theory.json",
+      "origin_sha256": "53ae37f39745a8ca94009a6cf4440ef28e62b732c1d5f9b83dcb371ab2e6c147",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage3_theory.json",
+      "public_sha256": "53ae37f39745a8ca94009a6cf4440ef28e62b732c1d5f9b83dcb371ab2e6c147",
+      "bytes": 707,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage4_combined_k5.json",
+      "origin_sha256": "7b98ac497692075c8228725e652ea047c39e9642d3165a239f237e7e0bd79d68",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage4_combined_k5.json",
+      "public_sha256": "7b98ac497692075c8228725e652ea047c39e9642d3165a239f237e7e0bd79d68",
+      "bytes": 975,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage4_raw.json",
+      "origin_sha256": "da1b421df46c9f4b46d26bd076ca97834f355ddd9a68bef9976ce1c3ce8a7e34",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage4_raw.json",
+      "public_sha256": "da1b421df46c9f4b46d26bd076ca97834f355ddd9a68bef9976ce1c3ce8a7e34",
+      "bytes": 726422,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage4_summary.json",
+      "origin_sha256": "94b5c9607949592469ea31124f06bf17e2398161e75a4ced3594f0841da44b40",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage4_summary.json",
+      "public_sha256": "94b5c9607949592469ea31124f06bf17e2398161e75a4ced3594f0841da44b40",
+      "bytes": 1702,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage4b_raw.json",
+      "origin_sha256": "661ca8c3a1d88a6c58a70f65fe15443d882ff195a97f611934783035d9f1f53b",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage4b_raw.json",
+      "public_sha256": "661ca8c3a1d88a6c58a70f65fe15443d882ff195a97f611934783035d9f1f53b",
+      "bytes": 2904441,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-08-27_claude_local_finite_ess_bias/evidence/stage5_raw.json",
+      "origin_sha256": "c4221ae00d616b42214062f8d096197c43f7bfdf4508890ec0c303ce5c4a466e",
+      "public_path": "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage5_raw.json",
+      "public_sha256": "c4221ae00d616b42214062f8d096197c43f7bfdf4508890ec0c303ce5c4a466e",
+      "bytes": 243905,
+      "kind": "replication_unit_summaries",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-09-04_codex_vps_dependence/probe.py",
+      "origin_sha256": "447f6c396c299eb7fa74c6a3f834b71806d4f86be82f19e7cbaa0c7ff6d93673",
+      "public_path": "studies/2026-09-04_codex_vps_dependence/probe.py",
+      "public_sha256": "447f6c396c299eb7fa74c6a3f834b71806d4f86be82f19e7cbaa0c7ff6d93673",
+      "bytes": 18111,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-09-04_codex_vps_dependence/config.json",
+      "origin_sha256": "79cb08783f5782843c079fa4bcc93863720e1d45680a320ae4894e647897db1d",
+      "public_path": "studies/2026-09-04_codex_vps_dependence/config.json",
+      "public_sha256": "79cb08783f5782843c079fa4bcc93863720e1d45680a320ae4894e647897db1d",
+      "bytes": 589,
+      "kind": "frozen_configuration",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-09-04_codex_vps_dependence/results/analysis.json",
+      "origin_sha256": "6646d207370f28e4bc714d24a7c5e41c54a626bc2fd37e0ee0975df4f40f8a8d",
+      "public_path": "studies/2026-09-04_codex_vps_dependence/results/analysis.json",
+      "public_sha256": "6646d207370f28e4bc714d24a7c5e41c54a626bc2fd37e0ee0975df4f40f8a8d",
+      "bytes": 455468,
+      "kind": "complete_aggregate_results",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-09-05_codex_vps_support_covariance/run_support.py",
+      "origin_sha256": "77bcd41df8be8410a12dfaf04334bf71e178aa5d215f0af2c8f837eb5005b0f7",
+      "public_path": "studies/2026-09-05_codex_vps_support_covariance/run_support.py",
+      "public_sha256": "df6abdcf0b6d59c8e3f8eb5493006b026bb91e16eae10eeca0eb260f91b57017",
+      "bytes": 11845,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-09-05_codex_vps_support_covariance/analyze.py",
+      "origin_sha256": "bd4290e79dbd720e7b694edd90750fe60d9cc3e0054264f94899d6c2120f3fe4",
+      "public_path": "studies/2026-09-05_codex_vps_support_covariance/analyze.py",
+      "public_sha256": "bd4290e79dbd720e7b694edd90750fe60d9cc3e0054264f94899d6c2120f3fe4",
+      "bytes": 4693,
+      "kind": "reproduction_code",
+      "transformation": "portable path adaptation only; function AST preserved after declared path normalization"
+    },
+    {
+      "origin_path": "experiments/2026-09-05_codex_vps_support_covariance/config.json",
+      "origin_sha256": "34f6e8362a6994d83af5d47a1d158ba22bbbf889e7cb027b2482c50f1521996f",
+      "public_path": "studies/2026-09-05_codex_vps_support_covariance/config.json",
+      "public_sha256": "34f6e8362a6994d83af5d47a1d158ba22bbbf889e7cb027b2482c50f1521996f",
+      "bytes": 599,
+      "kind": "frozen_configuration",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "experiments/2026-09-05_codex_vps_support_covariance/results/analysis.json",
+      "origin_sha256": "f049bfcccf3ee0c2453f36a0d8333831a7b3b28a9d20f8fca815dadb31fbc239",
+      "public_path": "studies/2026-09-05_codex_vps_support_covariance/results/analysis.json",
+      "public_sha256": "f049bfcccf3ee0c2453f36a0d8333831a7b3b28a9d20f8fca815dadb31fbc239",
+      "bytes": 960384,
+      "kind": "complete_aggregate_results",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "origin_path": "MD/02_design/memory_matched_kais_protocol_20260826.md",
+      "origin_sha256": "2ee4456312e0ff4ac10a4cff7d0de219d274904ab35283b346cfba13c30e1919",
+      "public_path": "protocols/memory_matched_kais_protocol_20260826.md",
+      "public_sha256": "e585eff7b51940595ebf6a730a5615085bb328ec3cc21370fc57db5e3e5a9c36",
+      "bytes": 7330,
+      "kind": "prospective_protocol_public_copy",
+      "transformation": "privacy-sanitized protocol copy"
+    },
+    {
+      "origin_path": "MD/02_design/finite_ess_bias_protocol_20260826.md",
+      "origin_sha256": "a53e6e1d8e94426aa1af6865fde869c428d69574993011db89b4ab85db26a2d3",
+      "public_path": "protocols/finite_ess_bias_protocol_20260826.md",
+      "public_sha256": "ba406f2a3a619f31f397ec461ddd28fbab7d9d1b9df454c49f246f1f1ec5ae16",
+      "bytes": 6343,
+      "kind": "prospective_protocol_public_copy",
+      "transformation": "privacy-sanitized protocol copy"
+    },
+    {
+      "origin_path": "MD/02_design/finite_ess_bias_protocol_addendum_20260827.md",
+      "origin_sha256": "3f25894e2c0d040e8a3b90557af0c2723c4884548bc506785d01a275adff5497",
+      "public_path": "protocols/finite_ess_bias_protocol_addendum_20260827.md",
+      "public_sha256": "3f25894e2c0d040e8a3b90557af0c2723c4884548bc506785d01a275adff5497",
+      "bytes": 3372,
+      "kind": "prospective_protocol_public_copy",
+      "transformation": "privacy-sanitized protocol copy"
+    },
+    {
+      "origin_path": "MD/02_design/dependence_probe_protocol_20260904.md",
+      "origin_sha256": "cbc8cc5b5fafc45f176ec73ff2d61216a478e66062545323191c5557db9cf151",
+      "public_path": "protocols/dependence_probe_protocol_20260904.md",
+      "public_sha256": "cbc8cc5b5fafc45f176ec73ff2d61216a478e66062545323191c5557db9cf151",
+      "bytes": 5341,
+      "kind": "prospective_protocol_public_copy",
+      "transformation": "privacy-sanitized protocol copy"
+    },
+    {
+      "origin_path": "MD/02_design/support_covariance_protocol_20260905.md",
+      "origin_sha256": "c33114f6acc5db1fd5e7d335a29b8c626acd12048e1775f77793965d91faa7c9",
+      "public_path": "protocols/support_covariance_protocol_20260905.md",
+      "public_sha256": "c33114f6acc5db1fd5e7d335a29b8c626acd12048e1775f77793965d91faa7c9",
+      "bytes": 8872,
+      "kind": "prospective_protocol_public_copy",
+      "transformation": "privacy-sanitized protocol copy"
+    }
+  ],
+  "sample_level_raw_trajectories_distributed": false,
+  "third_party_raw_data_or_caches_distributed": false
+}

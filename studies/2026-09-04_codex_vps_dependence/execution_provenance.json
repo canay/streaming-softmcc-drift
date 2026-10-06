@@ -1,0 +1,14 @@
+{
+  "run_id": "2026-09-04_codex_vps_dependence",
+  "scientific_units": 384,
+  "independent_trajectories": 49152,
+  "length_per_trajectory": 2500,
+  "moment_conditions": 120,
+  "bindings": {
+    "code_sha256": "447f6c396c299eb7fa74c6a3f834b71806d4f86be82f19e7cbaa0c7ff6d93673",
+    "config_sha256": "79cb08783f5782843c079fa4bcc93863720e1d45680a320ae4894e647897db1d"
+  },
+  "original_manifest_sha256": "d4a6235ebd25c63a940cf6f69cfaa1008f209d4fac2540312ed8b6aa9870912f",
+  "public_adapter_scope": "Relative paths only; scientific function AST and fixed configuration preserved.",
+  "original_transcripts": "original execution metadata retained project-locally; private paths and physical hostnames are not published"
+}

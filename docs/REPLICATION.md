@@ -1,6 +1,6 @@
 # Replication Notes
 
-Last updated: 2026-06-23
+Last updated: 2026-10-06
 
 ## Environment
 
@@ -14,6 +14,15 @@ python -m venv .venv
 ## Evidence Files
 
 The `results/` folder contains the manuscript-facing CSV, summary, and trace artifacts copied from the project workspace. The old imported benchmark output `softmcc_results_20260616_113151.csv` is intentionally excluded because it is not active Streaming SoftMCC drift manuscript evidence.
+
+## Scope of these commands
+
+The commands below cover the earlier diagnostic layer. For the memory-matched,
+finite-bias and September dependence/support studies, use
+[`STUDIES.md`](../STUDIES.md), including its separate environment instructions and
+read-only saved-result check. Do not pool these layers as independent replications.
+The original IoTID20 cache row selection is incompletely documented; the cache
+builder does not guarantee byte-identical reconstruction of that analyzed cache.
 
 ## Reproducing Core Results
 

@@ -1,0 +1,22 @@
+{
+  "run_id": "2026-09-05_codex_vps_support_covariance",
+  "operation_id": "SOFTMCC-COMPLETION-20260905",
+  "master_seed": 20260905,
+  "prevalences": [0.5, 0.2, 0.05],
+  "middle_masses": [0.2, 0.2, 0.1],
+  "scores": [0.01, 0.25, 0.9],
+  "rhos": [0.0, 0.3, 0.6, 0.9],
+  "windows": [20, 40, 100, 200, 500],
+  "length": 2500,
+  "blocks": 16,
+  "replicates_per_block": 64,
+  "margin": 1e-12,
+  "support_margin": 0.025,
+  "support_count": 5,
+  "bootstrap_resamples": 5000,
+  "bootstrap_seed": 95001,
+  "unit_timeout_seconds": 120,
+  "watchdog_seconds": 3600,
+  "disk_min_gib": 5,
+  "max_output_gib": 1
+}

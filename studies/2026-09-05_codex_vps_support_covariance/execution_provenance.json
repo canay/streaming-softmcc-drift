@@ -1,0 +1,18 @@
+{
+  "run_id": "2026-09-05_codex_vps_support_covariance",
+  "scientific_units": 192,
+  "independent_trajectories": 12288,
+  "length_per_trajectory": 2500,
+  "endpoint_conditions": 120,
+  "score_rows": 1320,
+  "interval_rows": 600,
+  "bindings": {
+    "code_sha256": "77bcd41df8be8410a12dfaf04334bf71e178aa5d215f0af2c8f837eb5005b0f7",
+    "config_sha256": "34f6e8362a6994d83af5d47a1d158ba22bbbf889e7cb027b2482c50f1521996f",
+    "predecessor_code_sha256": "447f6c396c299eb7fa74c6a3f834b71806d4f86be82f19e7cbaa0c7ff6d93673",
+    "protocol_sha256": "c33114f6acc5db1fd5e7d335a29b8c626acd12048e1775f77793965d91faa7c9"
+  },
+  "original_manifest_sha256": "63e30091f14bac06cf6455057fd436c0f31d2f29e4bbda9e06cf087e4c31aa9b",
+  "public_adapter_scope": "Relative paths only; scientific function AST and fixed configuration preserved.",
+  "original_transcripts": "original execution metadata retained project-locally; private paths and physical hostnames are not published"
+}

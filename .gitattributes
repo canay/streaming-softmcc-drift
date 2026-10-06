@@ -1,0 +1,2 @@
+# Deliver every file byte for byte so that SHA256SUMS.txt holds on every platform.
+* -text

@@ -1,6 +1,6 @@
 # Data Sources and Sharing Boundary
 
-Last updated: 2026-08-09
+Updated for the September 2026 study layers; historical cache identities retained.
 
 Target public repository: `streaming-softmcc-drift`
 
@@ -15,9 +15,11 @@ The credit-card-fraud and IoTID20 experiments use prepared NPZ caches named:
 - `creditcard_pi10.npz`
 - `iotid20_compact.npz`
 
-In the project evidence run, these caches are stored outside this replication
-package under the SoftMCC Theory project data area. They are derived from public
-sources cited in the manuscript.
+The historical analyzed caches were kept outside this replication package.
+Their recorded identities are retained below; no original raw file or prepared
+cache is distributed. The original IoTID20 row-selection procedure is not fully
+recoverable from the available provenance, and the current builder is not a
+byte-identical reconstruction guarantee.
 
 The scripts resolve cache files by checking, in order, `STREAMING_SOFTMCC_DRIFT_DATA_DIR`, legacy `DRIFTMCC_DATA_DIR`, this package/project `data` folder if present, the sibling `SCI-SoftMCC_Theory/02_data` folder, and the legacy `SCI-s1e1-SoftMCC/02_data` folder. For a standalone GitHub clone, set `STREAMING_SOFTMCC_DRIFT_DATA_DIR` to the folder containing the two NPZ files.
 
@@ -91,10 +93,27 @@ official source page grants academic research use and requests citation. The
 credit-card-fraud source page exists, but this audit did not capture stable
 license text that would justify raw redistribution.
 
-Inference: local analysis and citation are supportable; unrestricted raw/cache
-redistribution is not established for the public GitHub package.
+The recorded decision permits this package to provide code and derived results;
+it does not establish unrestricted redistribution rights for raw data or caches.
 
-Interpretation: the public `streaming-softmcc-drift` repository should provide
-code, results, figures, trace artifacts, transcripts, and cache-building
-instructions, while requiring users to obtain raw data from original sources and
-build private caches locally.
+The package therefore provides code, derived results, earlier monitoring traces
+and access instructions. An original cache hash is an identity record, not proof
+that an undocumented selection step has been reproduced.
+
+## Later ordered benchmarks and generated studies
+
+Electricity, Ozone Level and the two binary INSECTS variants are acquired by
+`studies/2026-08-26_codex_local_kais_memory_matched/src/memsoftmcc_matched.py`.
+Their source links and preprocessing are specified by that loader and the
+memory-matched protocol. Set `SOFTMCC_DATA_CACHE` to a private location outside
+the repository. The published CSVs contain derived metric summaries; source
+feature/label matrices and ordered per-observation prediction NPZs are excluded.
+
+The finite-bias and September stationary generators need no external raw data.
+The finite-pool permutation layer additionally needs the earlier ordered-stream
+prediction outputs, regenerated locally from the documented sources. The new
+sample-level generated trajectories are excluded from this update; original
+NPZ/receipt identities are separated from the manifest of shipped files.
+Complete aggregate results, including undefined rates, coverage, out-of-range
+rates and unsuccessful corrections, are included. See `../STUDIES.md`.
+

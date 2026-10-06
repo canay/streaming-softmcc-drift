@@ -1,0 +1,21 @@
+{
+  "run_id": "2026-08-26_codex_local_kais_memory_matched",
+  "tool": "codex",
+  "model_or_session": "GPT-5.6",
+  "seed": "1000..1029 synthetic; learner random_state=20260826",
+  "repeat": "30 synthetic replicates",
+  "hyperparameters": {
+    "windows": [
+      20,
+      40,
+      100,
+      200,
+      500
+    ],
+    "lambda_rule": "(w-1)/(w+1)",
+    "ordered_horizon": 500
+  },
+  "original_manifest_sha256": "5e44b92f71754120398f7b5a3ddd3650ac6073b447a20db3bdf64e6ebc5b058c",
+  "public_adapter_scope": "Relative paths only; scientific function AST and fixed configuration preserved.",
+  "original_transcripts": "original execution metadata retained project-locally; private paths and physical hostnames are not published"
+}

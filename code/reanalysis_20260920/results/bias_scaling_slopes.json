@@ -1,0 +1,70 @@
+{
+  "window": {
+    "point_slope": -1.4574947215473466,
+    "width_means": {
+      "20": -0.00695782209891361,
+      "40": -0.0033570441542642502,
+      "100": -0.0012971331745006193,
+      "200": -0.0005646669408731103,
+      "500": -4.988622139245136e-05
+    },
+    "reported": {
+      "resampling": "one unit index set per draw, shared by all five memory settings; no sign filter",
+      "seed": 11,
+      "draws": 2000,
+      "kept": 2000,
+      "ci_2p5_97p5": [
+        -1.758127977915857,
+        -0.5248196058415177
+      ],
+      "contains_minus_one": true,
+      "draws_whose_five_means_share_a_sign": 1061
+    },
+    "archived": {
+      "resampling": "a separate index set per memory setting; draws whose five means do not share a sign are discarded",
+      "seed": 11,
+      "draws": 2000,
+      "kept": 840,
+      "ci_2p5_97p5": [
+        -1.710793855613317,
+        -0.5380537640749686
+      ],
+      "contains_minus_one": true
+    },
+    "correlation_shortest_longest": 0.8054321410465671
+  },
+  "fading": {
+    "point_slope": -1.416511931400291,
+    "width_means": {
+      "20": -0.0068352096385405755,
+      "40": -0.0032972644123864274,
+      "100": -0.0012799776854905002,
+      "200": -0.0005782237702441916,
+      "500": -5.648936518151948e-05
+    },
+    "reported": {
+      "resampling": "one unit index set per draw, shared by all five memory settings; no sign filter",
+      "seed": 11,
+      "draws": 2000,
+      "kept": 2000,
+      "ci_2p5_97p5": [
+        -1.7296741915262412,
+        -0.5292341574805466
+      ],
+      "contains_minus_one": true,
+      "draws_whose_five_means_share_a_sign": 1083
+    },
+    "archived": {
+      "resampling": "a separate index set per memory setting; draws whose five means do not share a sign are discarded",
+      "seed": 11,
+      "draws": 2000,
+      "kept": 851,
+      "ci_2p5_97p5": [
+        -1.683619988966888,
+        -0.5374655210615533
+      ],
+      "contains_minus_one": true
+    },
+    "correlation_shortest_longest": 0.8650199088991409
+  }
+}

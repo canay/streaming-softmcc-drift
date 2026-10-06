@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "kind": "post_processing_reanalysis",
+  "created_at": "2026-09-20T22:00:33+00:00",
+  "script": "code/reanalysis_20260920/reanalysis.py",
+  "script_sha256": "5E26FE2B33E968D8916B4C16F67ADC95E1254E467C6AD6B73A0716D56E522F33",
+  "scope": "Recomputes three reported quantities from frozen raw outputs. No experiment is re-run and no frozen artifact is modified.",
+  "inputs": {
+    "studies/2026-08-26_codex_local_kais_memory_matched/raw/ordered_anchors.csv": "B03B52CCE99E8543880B22E5F8E5DB838EE0BBF67BED1F0E28D6967F5BF2A765",
+    "studies/2026-08-26_codex_local_kais_memory_matched/evidence/ordered_matched_contrasts.csv": "8F81D6F9699753517E47D8C4A0BED5251E9141C37AEB1E7B76652E2D13929068",
+    "studies/2026-08-27_claude_local_finite_ess_bias/evidence/stage1_raw.json": "CB9D4B98CFD9493B03E95E2155A6413CDAAD7F70E2B4E35020555F6A17175660"
+  },
+  "outputs": {
+    "common_anchor_contrasts.json": "6DDE45F42B4D4277DCDB63136A13E6195BB1C5B7D79F4A057D95F963A27C2CC3",
+    "bias_scaling_slopes.json": "7C7C90BB25F3E35EF965FCACBFA2983EAA1276172CBB130173160DDFE70C575F",
+    "table7_mean_deviations.json": "241249017A4775DF92EF2503A4266134805D3B6A738B06B8ABDBBB08F92E65BC"
+  },
+  "environment": {
+    "python": "3.12.7",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "reported_values": {
+    "ordered_stream_direction_count": {
+      "window": 9,
+      "fading": 24
+    },
+    "ordered_stream_direction_count_archived_form": {
+      "window": 15,
+      "fading": 18
+    },
+    "ordered_stream_direction_flips": 8,
+    "slope_ci": {
+      "window": [
+        -1.758127977915857,
+        -0.5248196058415177
+      ],
+      "fading": [
+        -1.7296741915262412,
+        -0.5292341574805466
+      ]
+    }
+  }
+}
